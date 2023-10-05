@@ -1,0 +1,29 @@
+@media screen and (max-width: 640px) {
+    h1 {
+        --font-mult: 2;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .city-forecast-weekday-wrapper .forecast-weekday:last-child {
+        display: none;
+    }
+
+    .capitals-table-wrapper {
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 0;
+    }
+
+    .capitals-table {
+        margin-bottom: 0;
+    }
+
+    .capitals-table:last-child {
+        transform: translate(-5px);
+    }
+
+    .capitals-table:last-child thead {
+        display: none;
+    }
+}
